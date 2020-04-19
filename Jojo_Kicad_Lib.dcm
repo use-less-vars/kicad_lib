@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP63205
+D Buck, 3.8V-32V to 5V, 2A
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP SRR5028-100Y
+D Inductor 10u 70mR 1.5A 6.3x6.3
+$ENDCMP
+#
+$CMP SRR6038-100Y
+D Inductor 10u 30mR 2.0A 7.3x7.3
+$ENDCMP
+#
+#End Doc Library
