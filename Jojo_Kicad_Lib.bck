@@ -1,12 +1,225 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADS131A04IPBSR
+D ADC, DELTA-SIGMA, 24BIT, 128KSPS, TQFP32
+F http://www.ti.com/lit/ds/symlink/ads131a02.pdf
+$ENDCMP
+#
+$CMP ADS131M04IPWR
+D ADC 24-bit 32-kSPS 4-channel simultaneous-sampling delta-sigma ADC
+F http://www.ti.com/lit/gpn/ADS131M04
+$ENDCMP
+#
 $CMP AP63205
 D Buck, 3.8V-32V to 5V, 2A
 F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
 $ENDCMP
 #
+$CMP BC846BLT1G
+D BC846BLT1G, NPN Bipolar Transistor,  0.1 A 65 V HFE:200 100 MHz Small Signal, 3-Pin SOT-23
+F https://componentsearchengine.com/Datasheets/1/BC846BLT1G.pdf
+$ENDCMP
+#
+$CMP BC856B,215
+D BC856; BC857; BC858 - PNP general purpose transistors
+F https://componentsearchengine.com/Datasheets/1/BC856B,215.pdf
+$ENDCMP
+#
+$CMP C0603_100nF_25V
+D Cap Ker 100nF 25V 0603
+$ENDCMP
+#
+$CMP C0603_100nF_50V
+D Cap Ker 100nF 50V 0603
+$ENDCMP
+#
+$CMP C0603_100pF_50V
+D Cap 0603 100pF 50V
+$ENDCMP
+#
+$CMP C0603_1uF_25V
+D Cap 0603 1uF 25V
+$ENDCMP
+#
+$CMP C0603_220nF_16V
+D Cap Ker 220nF 16V 0603
+$ENDCMP
+#
+$CMP C0603_56pF_25V
+D Cap Ker 56nF 50V 0603
+$ENDCMP
+#
+$CMP C0805_22uF_6.3V
+D Cap Ker 22u 6.3V 0805
+$ENDCMP
+#
+$CMP C1206_10uF_35V
+D Cap Ker 10u 35V 1206
+$ENDCMP
+#
+$CMP C1206_10uF_50V
+D Cap Ker 10u 50V 1206
+$ENDCMP
+#
+$CMP C1206_10uF_6.3V
+D Cap Ker 10u 6.3V 1206
+$ENDCMP
+#
+$CMP C1206_4.7uF_50V
+D Cap Ker 4.7uF 50V 1206
+$ENDCMP
+#
+$CMP C_PANA_100uF_25V
+D Capacitor Alu 100u 25V
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_PANA_100uF_50V
+D Capacitor Alu 100u 50V
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP L0603_Ferrite_Bead_1k
+D Ferrite Bead 0603 1k at 100MHz 0.2R at DC
+$ENDCMP
+#
+$CMP LED_LRTBR48G-P9Q7-1+R7S5-26+NP-68
+D LED RgB - SMD Multi CHIPLED RGB 623nm 530nm 471nm
+F https://www.osram.com/os/ecat/Multi%20CHIPLED%C2%AE%20LRTBR48G/com/en/class_pim_web_catalog_103489/global/prd_pim_device_2190793/
+$ENDCMP
+#
+$CMP LMR64010
+D Boost/Step-up 2.7V-14V to ca. 2V-40V 1A
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
+$ENDCMP
+#
+$CMP MAX3221CDBR
+D RS-232 Driver 3-V to 5.5-V Single-Channel
+F http://www.ti.com/lit/gpn/max3221
+$ENDCMP
+#
+$CMP MBR0520
+D 20V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0540
+D 40V 0.35A Small Signal Schottky Diode, SOD-123
+K diode Schottky
+F www.st.com/resource/en/datasheet/bat48.pdf
+$ENDCMP
+#
+$CMP MBR0540T1G
+D Schottky Diode 40V
+F https://componentsearchengine.com/Datasheets/1/MCP4728-E_UN.pdf
+$ENDCMP
+#
+$CMP MBR0550
+D 50V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MCP4728-E_UN
+D DAC Quad, 12-bit NV  I2C
+F https://componentsearchengine.com/Datasheets/1/MCP4728-E_UN.pdf
+$ENDCMP
+#
+$CMP NCP161
+D LDO 3.3V low noise
+$ENDCMP
+#
+$CMP PIC24FJ128GA705-I_PT
+D 16-bit Microcontrollers - MCU 16-bit, 16 MIPS, 128KB Flash, 16KB RAM
+F https://componentsearchengine.com/Datasheets/1/PIC24FJ128GA705-I_PT.pdf
+$ENDCMP
+#
+$CMP Push_Button_SMD
+D Tactile Switches TACTILE 260G FORCE S
+F https://componentsearchengine.com/Datasheets/1/2-1437565-8.pdf
+$ENDCMP
+#
+$CMP R0603_100
+D Res 0603 100 1%
+$ENDCMP
+#
+$CMP R0603_100k
+D Res 0603 100k 1%
+$ENDCMP
+#
+$CMP R0603_10k
+D Res 0603 10k 1%
+$ENDCMP
+#
+$CMP R0603_150k
+D Res 0603 150k 1%
+$ENDCMP
+#
+$CMP R0603_15k
+D Res 0603 15k 1%
+$ENDCMP
+#
+$CMP R0603_169k
+D Res 0603 169k 1%
+$ENDCMP
+#
+$CMP R0603_180k
+D Res 0603 180k 1%
+$ENDCMP
+#
+$CMP R0603_18k
+D Res 0603 18k 1%
+$ENDCMP
+#
+$CMP R0603_1k
+D Res 0603 1k 1%
+$ENDCMP
+#
+$CMP R0603_2.2k
+D Res 0603 2.2k 1%
+$ENDCMP
+#
+$CMP R0603_330
+D Res 0603 330 1%
+$ENDCMP
+#
+$CMP R0603_348k
+D Res 0603 348k 1%
+$ENDCMP
+#
+$CMP R0603_470
+D Res 0603 470 1%
+$ENDCMP
+#
+$CMP R0603_5.6k
+D Res 0603 5.6k 1%
+$ENDCMP
+#
 $CMP SRR5028-100Y
 D Inductor 10u 70mR 1.5A 6.3x6.3
+$ENDCMP
+#
+$CMP SRR6038-100Y
+D Inductor 10u 30mR 2.0A 7.3x7.3
+$ENDCMP
+#
+$CMP TL074CDT
+D OP Amp Quad +/- 18V SOIC14 STMicroelectronics
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000489.pdf
+$ENDCMP
+#
+$CMP TPS560430
+D Buck Switching Voltage Regulators NIXON AUTO DC-DC CONVERTER
+F https://www.ti.com/lit/gpn/TPS560430-Q1
+$ENDCMP
+#
+$CMP XTAL_8MHz
+D ABRACON - ASE-8.000MHZ-LC-T - Oscillator, 8 MHz, 50 ppm, SMD, 3.2mm x 2.5mm, LVCMOS, 3.3 V, ASE Series
+F https://componentsearchengine.com/Datasheets/2/ASE-8.000MHZ-LC-T.pdf
 $ENDCMP
 #
 #End Doc Library
