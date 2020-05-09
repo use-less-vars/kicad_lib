@@ -44,6 +44,56 @@ X VDD 4 0 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
+# LED_0603_green
+#
+DEF LED_0603_green LED 0 30 Y Y 1 F N
+F0 "LED" -50 100 50 H V L BNN
+F1 "LED_0603_green" 500 50 50 H I L BNN
+F2 "LEDC1608X80N" 500 150 50 H I L BNN
+F3 "" 500 50 50 H I L BNN
+F4 "LED,Wurth Elektronik,150060VS75000 Wurth Elektronik 150060VS75000, WL-SMCW Series Green LED, 570 nm, 1608 (0603) Clear, Rectangle Lens SMD Package" 500 -50 50 H I L BNN "Description"
+F5 "0.8" 500 -150 50 H I L BNN "Height"
+F6 "710-150060VS75000" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "150060VS75000" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+F10 "Green" 0 -150 50 H V C CNN "Val"
+DRAW
+P 2 1 1 8 -50 -50 -50 50 N
+P 2 1 1 0 -50 0 50 0 N
+P 4 1 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 1 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 1 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_0603_red
+#
+DEF LED_0603_red LED 0 30 Y Y 1 F N
+F0 "LED" -50 100 50 H V L BNN
+F1 "LED_0603_red" 500 250 50 H I L BNN
+F2 "LED_SMD:LED_0603_1608Metric" 500 150 50 H I L BNN
+F3 "" 500 50 50 H I L BNN
+F4 "WURTH ELEKTRONIK - 150060RS75000 - LED, 0603, RED, 250MCD, 625NM" 500 -50 50 H I L BNN "Description"
+F5 "0.8" 500 -150 50 H I L BNN "Height"
+F6 "710-150060RS75000" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "150060RS75000" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+F10 "Red" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 8 -50 -50 -50 50 N
+P 2 1 1 0 -50 0 50 0 N
+P 4 1 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 1 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 1 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LRTBR48G-P9Q7-1+R7S5-26+NP-68
 #
 DEF LRTBR48G-P9Q7-1+R7S5-26+NP-68 LED 0 30 Y Y 1 F N

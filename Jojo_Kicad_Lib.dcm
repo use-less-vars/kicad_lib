@@ -49,6 +49,10 @@ $CMP C0603_56pF_25V
 D Cap Ker 56nF 50V 0603
 $ENDCMP
 #
+$CMP C0805_10uF_16V
+D Cap Ker 10uF 16V 0805
+$ENDCMP
+#
 $CMP C0805_22uF_6.3V
 D Cap Ker 22u 6.3V 0805
 $ENDCMP
@@ -83,6 +87,15 @@ $ENDCMP
 #
 $CMP L0603_Ferrite_Bead_1k
 D Ferrite Bead 0603 1k at 100MHz 0.2R at DC
+$ENDCMP
+#
+$CMP LED_0603_green
+D LED green 0603
+$ENDCMP
+#
+$CMP LED_0603_red
+D LED Red 0603
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
 $ENDCMP
 #
 $CMP LED_LRTBR48G-P9Q7-1+R7S5-26+NP-68
