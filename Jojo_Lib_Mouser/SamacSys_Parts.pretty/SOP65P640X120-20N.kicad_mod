@@ -1,11 +1,11 @@
-(module SOP65P640X120-20N (layer F.Cu) (tedit 5EAEAE78)
+(module SOP65P640X120-20N (layer F.Cu) (tedit 5EC5A837)
   (descr "pw(r-pdso-g20)")
   (tags "Integrated Circuit")
   (attr smd)
   (fp_text reference IC** (at 0 -4.8) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text value SOP65P640X120-20N (at 0.1 5.4) (layer F.SilkS) hide
+  (fp_text value SOP65P640X120-20N (at 0.1 5.4) (layer F.Fab) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -3.675 -3.5) (end -2.2 -3.5) (layer F.SilkS) (width 0.2))

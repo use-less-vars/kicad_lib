@@ -44,6 +44,135 @@ X VDD 4 0 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
+# Conn_1x2_screw
+#
+DEF Conn_1x2_screw J 0 30 Y Y 1 F N
+F0 "J" 300 250 50 H V L CNN
+F1 "Conn_1x2_screw" 50 150 50 H V L CNN
+F2 "SHDR2W100P0X500_1X2_1000X760X1040P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10.4" 650 -200 50 H I L CNN "Height"
+F6 "490-TB002-500-02BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB002-500-02BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 400 100 400 -200 200 -200 200 100 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Conn_1x3_male
+#
+DEF Conn_1x3_male J 0 30 Y Y 1 F N
+F0 "J" 250 150 50 H V L CNN
+F1 "Conn_1x3_male" 0 -350 50 H V L CNN
+F2 "HDRV3W95P0X254_1X3_762X254X869P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "8.69" 650 -200 50 H I L CNN "Height"
+F5 "710-61300311121" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "61300311121" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 400 100 400 -300 200 -300 200 100 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Conn_1x3_screw
+#
+DEF Conn_1x3_screw J 0 30 Y Y 1 F N
+F0 "J" 250 250 50 H V L CNN
+F1 "Conn_1x3_screw" 0 150 50 H V L CNN
+F2 "SHDR3W100P0X500_1X3_1500X760X1000P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "490-TB002-500-03BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-03BE?qs=vLWxofP3U2xKqUO2wcZ40g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB002-500-03BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 400 100 400 -300 200 -300 200 100 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Conn_1x5_male
+#
+DEF Conn_1x5_male J 0 30 Y Y 1 F N
+F0 "J" 300 150 50 H V L CNN
+F1 "Conn_1x5_male" 50 -550 50 H V L CNN
+F2 "HDRV5W69P0X254_1X5_1270X250X895P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "8.95" 650 -200 50 H I L CNN "Height"
+F5 "523-G800W303018EU" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/G800W303018EU?qs=f9yNj16SXrJ5tCX5FPao9w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Amphenol" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "G800W303018EU" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 400 100 400 -500 200 -500 200 100 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+X ~ 4 0 -300 200 R 50 50 0 0 P
+X ~ 5 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Conn_1x6_female
+#
+DEF Conn_1x6_female J 0 30 Y Y 1 F N
+F0 "J" 300 200 50 H V L CNN
+F1 "Conn_1x6_female" -200 -700 50 H V L CNN
+F2 "SHDR6W60P0X254_1X6_1524X254X700P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "2.54/5.08 mm, Straight solder tail, Mating pin  0.76 mm, 006 positions" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "437-8018700610001101" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=437-8018700610001101" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Preci-Dip" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "801-87-006-10-001101" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 400 100 400 -600 200 -600 200 100 f
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+X ~ 4 0 -300 200 R 50 50 0 0 P
+X ~ 5 0 -400 200 R 50 50 0 0 P
+X ~ 6 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_4Pin
+#
+DEF Connector_4Pin J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "Connector_4Pin" 650 200 50 H V L CNN
+F2 "SHDR4W155P0X396_1X4_1570X1001X1501P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Molex KK 396 Series, Series Number 41791, 3.96mm Pitch 4 Way 1 Row Straight PCB Header, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "15.01" 650 -200 50 H I L CNN "Height"
+F6 "538-26-60-4040" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/26-60-4040?qs=tRPrwvvr%2FuiQpDQcO3P3Lw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "26-60-4040" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
 # LED_0603_green
 #
 DEF LED_0603_green LED 0 30 Y Y 1 F N

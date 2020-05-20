@@ -20,6 +20,11 @@ D BC846BLT1G, NPN Bipolar Transistor,  0.1 A 65 V HFE:200 100 MHz Small Signal, 
 F https://componentsearchengine.com/Datasheets/1/BC846BLT1G.pdf
 $ENDCMP
 #
+$CMP BC856B
+D BC856-BC857-BC858 - PNP general purpose transistors
+F https://componentsearchengine.com/Datasheets/1/BC856B,215.pdf
+$ENDCMP
+#
 $CMP BC856B,215
 D BC856; BC857; BC858 - PNP general purpose transistors
 F https://componentsearchengine.com/Datasheets/1/BC856B,215.pdf
@@ -85,8 +90,53 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_1x2_screw
+D Fixed Terminal Blocks screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount
+F https://componentsearchengine.com/Datasheets/1/TB002-500-02BE.pdf
+$ENDCMP
+#
+$CMP Conn_1x3_male
+D Pin Header 1x3 2.54mm Wueth
+F http://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+$ENDCMP
+#
+$CMP Conn_1x3_screw
+D Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount
+F https://www.cuidevices.com/product/resource/tb002-500.pdf
+$ENDCMP
+#
+$CMP Conn_1x5_male
+D Pin Header 1x5 2.54mm Pitch STR DIP,1x5Pin,FULL G/F,NY6T,6.1mm*2.5mm*3.0mm,Color-Black,BAG
+F https://www.amphenol-icc.com/media/wysiwyg/files/drawing/g800wxxxxxxeu_1.pdf?__cf_chl_jschl_tk__=922b102d879682bfc536eb2753467ff604850872-1579790211-0-AY8g3AKFEvxR32bnAk3wGbauQ95sEA1frs7G0yzYyPVI1IWXSry49N3KoK4DtUbG9hGc_jM3fctMlg-uVczVbWdy71nOMWnuzLMLKX4b
+$ENDCMP
+#
+$CMP Conn_1x6_female
+D 2.54/5.08 mm, Straight solder tail, Mating pin  0.76 mm, 006 positions
+F https://componentsearchengine.com/Datasheets/1/801-87-006-10-001101.pdf
+$ENDCMP
+#
+$CMP Conn_Molex_1x15_male
+D Molex KK 396, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_Molex_1x4_male
+D Molex KK 396 Series, Series Number 41791, 3.96mm Pitch 4 Way 1 Row Straight PCB Header, Through Hole
+F http://www.molex.com/pdm_docs/sd/026604040_sd.pdf
+$ENDCMP
+#
 $CMP L0603_Ferrite_Bead_1k
 D Ferrite Bead 0603 1k at 100MHz 0.2R at DC
+$ENDCMP
+#
+$CMP LED_0603_green
+D LED green 0603
+$ENDCMP
+#
+$CMP LED_0603_red
+D LED Red 0603
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
 $ENDCMP
 #
 $CMP LED_LRTBR48G-P9Q7-1+R7S5-26+NP-68
@@ -219,6 +269,12 @@ $ENDCMP
 $CMP TPS560430
 D Buck Switching Voltage Regulators NIXON AUTO DC-DC CONVERTER
 F https://www.ti.com/lit/gpn/TPS560430-Q1
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP XTAL_8MHz
