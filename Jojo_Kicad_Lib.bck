@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8226
+D Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier
+F https://componentsearchengine.com/Datasheets/1/AD8226BRMZ-R7.pdf
+$ENDCMP
+#
 $CMP ADS131A04IPBSR
 D ADC, DELTA-SIGMA, 24BIT, 128KSPS, TQFP32
 F http://www.ti.com/lit/ds/symlink/ads131a02.pdf
@@ -21,13 +26,7 @@ F https://componentsearchengine.com/Datasheets/1/BC846BLT1G.pdf
 $ENDCMP
 #
 $CMP BC856B
-D BC856-BC857-BC858 - PNP general purpose transistors
-F https://componentsearchengine.com/Datasheets/1/BC856B,215.pdf
-$ENDCMP
-#
-$CMP BC856B,215
-D BC856; BC857; BC858 - PNP general purpose transistors
-F https://componentsearchengine.com/Datasheets/1/BC856B,215.pdf
+D BC856 PNP general purpose transistors
 $ENDCMP
 #
 $CMP C0603_100nF_25V
@@ -42,8 +41,16 @@ $CMP C0603_100pF_50V
 D Cap 0603 100pF 50V
 $ENDCMP
 #
+$CMP C0603_10nF_50V
+D Cap Ker 10nF 50V 0603
+$ENDCMP
+#
 $CMP C0603_1uF_25V
 D Cap 0603 1uF 25V
+$ENDCMP
+#
+$CMP C0603_2.2uF_16V
+D Cap Ker 2.2uF 16V 0603
 $ENDCMP
 #
 $CMP C0603_220nF_16V
@@ -60,6 +67,10 @@ $ENDCMP
 #
 $CMP C0805_22uF_6.3V
 D Cap Ker 22u 6.3V 0805
+$ENDCMP
+#
+$CMP C0805_470nF_50V
+D Cap Ker 470nF 50V 0805
 $ENDCMP
 #
 $CMP C1206_10uF_35V
@@ -124,6 +135,22 @@ $ENDCMP
 $CMP Conn_Molex_1x4_male
 D Molex KK 396 Series, Series Number 41791, 3.96mm Pitch 4 Way 1 Row Straight PCB Header, Through Hole
 F http://www.molex.com/pdm_docs/sd/026604040_sd.pdf
+$ENDCMP
+#
+$CMP DMC4047LSD
+D MOSFET- Dual-Channel
+$ENDCMP
+#
+$CMP HMC1001
+D Magnetoresistive Bridge 1-Axis
+$ENDCMP
+#
+$CMP HMC1002
+D Magnetoresistive Bridge 2-Axis
+$ENDCMP
+#
+$CMP ICM42605
+D Gyroscope/Accel Invensense 6-axis
 $ENDCMP
 #
 $CMP L0603_Ferrite_Bead_1k
@@ -195,6 +222,14 @@ $ENDCMP
 $CMP Push_Button_SMD
 D Tactile Switches TACTILE 260G FORCE S
 F https://componentsearchengine.com/Datasheets/1/2-1437565-8.pdf
+$ENDCMP
+#
+$CMP R0603_0
+D Res 0603 1R 1%
+$ENDCMP
+#
+$CMP R0603_1
+D Res 0603 1R 1%
 $ENDCMP
 #
 $CMP R0603_100

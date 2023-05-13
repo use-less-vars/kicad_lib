@@ -266,4 +266,30 @@ X CATHODE_BLUE 4 0 -75 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model AD8226BRMZ-R7
+#/564193/252712/2.46/8/3/Integrated Circuit
+DEF AD8226BRMZ-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AD8226BRMZ-R7" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AD8226BRMZ-R7.pdf" 1050 0 50 H I L CNN
+F4 "Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "584-AD8226BRMZ-R7" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8226BRMZ-R7?qs=%2FtpEQrCGXCy0K1MIqqlxxw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD8226BRMZ-R7" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -IN 1 0 0 200 R 50 50 0 0 U
+X RG_1 2 0 -100 200 R 50 50 0 0 U
+X RG_2 3 0 -200 200 R 50 50 0 0 U
+X +IN 4 0 -300 200 R 50 50 0 0 U
+X +VS 8 1200 0 200 L 50 50 0 0 U
+X VOUT 7 1200 -100 200 L 50 50 0 0 U
+X REF 6 1200 -200 200 L 50 50 0 0 U
+X -VS 5 1200 -300 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
