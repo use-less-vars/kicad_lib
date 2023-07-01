@@ -1303,7 +1303,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser Part Number" "771-BZX384-C5V1115 " (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "5.1V Zener" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
