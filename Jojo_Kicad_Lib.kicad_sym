@@ -7020,7 +7020,7 @@
     (property "Value" "MCP4728-E_UN" (at 11.43 4.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SamacSys_Parts:SOP50P490X110-10N" (at 31.75 2.54 0)
+    (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (at 31.75 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/MCP4728-E_UN.pdf" (at 31.75 0 0)
