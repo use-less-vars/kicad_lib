@@ -2007,7 +2007,7 @@
     (property "Place" "Yes" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Val" "1uF" (at 3.81 0 90)
+    (property "Val" "12pF" (at 3.81 0 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "ki_description" "Cap 0603 12pF 50V" (at 0 0 0)
