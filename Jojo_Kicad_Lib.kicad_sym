@@ -1988,7 +1988,7 @@
       )
     )
   )
-  (symbol "C0603_10pF_50V_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "C0603_10pF_50V" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "C" (at -3.81 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -2016,7 +2016,7 @@
     (property "ki_description" "Cap Ker 10pF 50V 0603" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "C0603_10pF_50V_1_1_1"
+    (symbol "C0603_10pF_50V_1_1"
       (polyline
         (pts
           (xy -1.27 -0.508)
