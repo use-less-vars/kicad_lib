@@ -6314,7 +6314,7 @@
     (property "Value" "2.2uH" (at -0.254 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_Coilcraft_XAL60xx_6.36x6.56mm" (at -0.254 -4.318 0)
+    (property "Footprint" "Inductor_SMD:L_Coilcraft_XAL6020-XXX" (at -0.254 -4.318 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0.254 0 0)
